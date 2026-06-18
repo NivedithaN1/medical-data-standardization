@@ -1,10 +1,9 @@
-# ─── Core ────────────────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+
 pandas>=2.0.0
 openpyxl>=3.1.0
 python-dotenv>=1.0.0
-
-# ─── Tier 2 NLP ───────────────────────────────────────────────────────────────
-rapidfuzz>=3.6.0          # token-sort fuzzy matching (optional but recommended)
-
-# ─── Tier 3 Gemini ────────────────────────────────────────────────────────────
-google-generativeai>=0.7.0  # comment out if you don't need Tier-3
+rapidfuzz>=3.6.0
+google-generativeai>=0.7.0
